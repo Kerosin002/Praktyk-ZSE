@@ -1,4 +1,4 @@
-package UCZEN;
+package Zadanie1;
 
 public class uczen {
     String Imie;
