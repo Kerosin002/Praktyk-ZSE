@@ -11,7 +11,7 @@ public class uczen {
         this.wiek= wiek;
     }
 
-    public static void info(String Imie, String Nazwisko, int wiek) {
+    public void info(String Imie, String Nazwisko, int wiek) {
         System.out.println(Imie);
         System.out.println(Nazwisko);
         System.out.println(wiek);

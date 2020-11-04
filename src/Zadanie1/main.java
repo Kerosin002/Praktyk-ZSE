@@ -6,11 +6,7 @@ public class main {
         Scanner in = new Scanner(System.in);
         System.out.println("Informacja o uczniu");
         uczen uczen = new uczen();
-        uczen.Imie=in.next();
-        uczen.Nazwisko=in.next();
-        uczen.wiek=in.nextInt();
-
-        uczen.set_all(uczen.Imie, uczen.Nazwisko, uczen.wiek);
+        uczen.set_all("Oleksandr","Nychyporchuk",18);
         uczen.info(uczen.Imie, uczen.Nazwisko, uczen.wiek);
 
     }
