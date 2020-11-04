@@ -5,9 +5,9 @@ public class main {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         System.out.println("Informacja o uczniu");
-        uczen uczen = new uczen();
-        uczen.set_all("Oleksandr","Nychyporchuk",18);
-        uczen.info(uczen.Imie, uczen.Nazwisko, uczen.wiek);
+        uczen ON = new uczen();
+        ON.setInfoOUczniu("Oleksandr","Nychyporchuk",18);
+        ON.info(ON.Imie, ON.Nazwisko, ON.wiek);
 
     }
 }

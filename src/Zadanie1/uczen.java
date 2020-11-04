@@ -5,7 +5,7 @@ public class uczen {
     String Nazwisko;
     int wiek;
 
-    public void set_all(String Imie, String Nazwisko, int wiek){
+    public void setInfoOUczniu(String Imie, String Nazwisko, int wiek){
         this.Imie= Imie;
         this.Nazwisko=Nazwisko;
         this.wiek= wiek;
