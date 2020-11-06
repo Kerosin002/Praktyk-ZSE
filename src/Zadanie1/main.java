@@ -8,6 +8,7 @@ public class main {
         uczen ON = new uczen();
         ON.setInfoOUczniu("Oleksandr","Nychyporchuk",18);
         ON.info(ON.Imie, ON.Nazwisko, ON.wiek);
+        ON.toString();
 
     }
 }
