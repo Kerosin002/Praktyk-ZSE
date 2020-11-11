@@ -1,6 +1,6 @@
 package HuMech;
 
-public class Human {
+public class Human implements Humaninterface {
     protected double wzrost;
     protected char plec; // m - mezczyzna // k - kobieta // c - cos innego
     protected double rozmiar_buta;
@@ -79,5 +79,35 @@ public class Human {
         this.color_wlosow = color_wlosow;
         this.wiek = wiek;
         this.rodzice = rodzice;
+    }
+
+    @Override
+    public void work(String where, int za_ile) {
+        System.out.println("Pracuje");
+    }
+
+    @Override
+    public void learn(String czego) {
+        System.out.println("Uczy sie "+czego);
+    }
+
+    @Override
+    public void run_forest() {
+
+    }
+
+    @Override
+    public Human give_birth() {
+        return null;
+    }
+
+    @Override
+    public void jedz() {
+
+    }
+
+    @Override
+    public void choruje() {
+
     }
 }
